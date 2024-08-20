@@ -1,0 +1,14 @@
+<h1><%= @trainer.name %></h1>
+<%# <p><%= link_to("Back", root_path) %>
+<%#</p> %>
+<hr>
+<h2>Robots Owned</h2>
+<div class="container">
+  <p><%= link_to("Create new Robot", new_robot_path) %></p>
+  <hr>
+  <ul>
+    <% @robots.each do |rb| %>
+    <li><%= link_to(rb.name,)%></li>
+    <% end %>
+  </ul>
+</div>

@@ -1,0 +1,7 @@
+<%= simple_form_for robot do |f| %>
+  <%= f.input :name %>
+  <%= f.input :trainer, collection: Trainer.all %>
+  <%= f.input :medals, collection: MedalColection.all %>
+  <%= f.input :personalities, collection: RobotPersonality.all %>
+  <%= f.button :submit, class: 'btn btn-primary' %>
+<% end %>

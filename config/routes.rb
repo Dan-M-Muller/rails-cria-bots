@@ -9,4 +9,7 @@ Rails.application.routes.draw do
   root "trainers#index"
 
   get "trainers/:id" => "trainers#show", as: :trainer
+
+  get "robots/new" => "robots#new", as: :new_robot
+  get "robots/:id" => "robots#show", as: :robot
 end
