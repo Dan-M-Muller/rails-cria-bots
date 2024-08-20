@@ -1,0 +1,9 @@
+<h1>Criations</h1>
+
+<div class="container">
+  <ul>
+    <% @trainers.each do |tr| %>
+    <li><%= link_to(tr.name, trainer_path(tr))%></li>
+    <% end %>
+  </ul>
+</div>

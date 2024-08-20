@@ -1,0 +1,2 @@
+class GeneralPart < ApplicationRecord
+end

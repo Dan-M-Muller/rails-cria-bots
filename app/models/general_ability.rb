@@ -1,0 +1,2 @@
+class GeneralAbility < ApplicationRecord
+end

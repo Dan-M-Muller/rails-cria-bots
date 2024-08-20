@@ -1,0 +1,2 @@
+class TrainerPersonality < ApplicationRecord
+end

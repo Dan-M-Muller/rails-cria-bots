@@ -1,0 +1,2 @@
+class RobotPersonality < ApplicationRecord
+end

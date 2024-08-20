@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  atr_negative_name: MyString
+  atr_negative: 1
+  atr_positive_name: MyString
+  atr_positive: 1
+
+two:
+  name: MyString
+  atr_negative_name: MyString
+  atr_negative: 1
+  atr_positive_name: MyString
+  atr_positive: 1

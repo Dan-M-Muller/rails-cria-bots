@@ -1,0 +1,2 @@
+class SpecPart < ApplicationRecord
+end
